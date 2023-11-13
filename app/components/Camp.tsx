@@ -1,11 +1,15 @@
-import React from 'react'
+import { PEOPLE_URL } from "@/constants";
+import Image from "next/image";
 
-const Camp = () => {
-  return (
-    <div>
-      Camp
-    </div>
-  )
+interface CampProps {
+  backgroundImage: string;
+  title: string;
+  subtitle: string;
+  peopleJoined: string;
 }
 
-export default Camp
+const Camp = () => {
+  return <div>Camp</div>;
+};
+
+export default Camp;
