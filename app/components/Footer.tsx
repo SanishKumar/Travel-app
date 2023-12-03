@@ -8,6 +8,11 @@ const Footer = () => {
   )
 }
 
+type FooterColumnProps = {
+  title: string;
+  children: React.ReactNode;
+}
+
 const FooterColumn = ({ title, children }: FooterColumnProps) => {
   return (
     <div className="flex flex-col gap-5">
