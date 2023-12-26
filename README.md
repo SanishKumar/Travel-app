@@ -11,17 +11,21 @@ To run the project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/travel-website-nextjs.git
 2. Navigate to the project directory:
+
 cd travel-website-nextjs
 
 3. Install dependencies:
 
 npm install
+
 4. Start the development server:
 
 npm run dev
+
 The application will be accessible at http://localhost:3000.
 
 ## Technologies Used
+
 1. Next.js: React framework for building web applications.
 2. React: JavaScript library for building user interfaces.
 3. CSS Modules: CSS scoping and modularization.
